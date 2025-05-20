@@ -1,4 +1,9 @@
-| ID   | Název testu                       | Kroky                                                                 | Očekávaný výsledek                    | Výsledek | Poznámky     |
-|------|----------------------------------|-----------------------------------------------------------------------|----------------------------------------|----------|--------------|
-| TC01 | Přihlášení s platnými údaji     | 1. Otevři login stránku<br>2. Vyplň email/heslo<br>3. Klikni Login    | Uživatel je přihlášen                  | Passed   |              |
-| TC02 | Přihlášení s neplatným heslem   | 1. …                                                                  | Zobrazí se chybová hláška              | Failed   | Screenshot   |
+# Manual Test Cases – QA Practice App
+
+| ID    | Test Name                          | Precondition                | Steps                                                                                          | Expected Result                                   | Result | Notes        |
+|-------|------------------------------------|-----------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------|--------|--------------|
+| TC01  | Login with valid credentials       | User account exists         | 1. Go to Login page<br>2. Enter valid email and password<br>3. Click 'Login'                   | User is redirected to the dashboard               | Pass   |              |
+| TC02  | Login with invalid password        | User account exists         | 1. Go to Login page<br>2. Enter valid email and wrong password<br>3. Click 'Login'             | Error message "Invalid credentials" is displayed | Pass   | Screenshot taken |
+| TC03  | Register with missing email field  | -                           | 1. Go to Registration page<br>2. Leave email field empty<br>3. Fill other fields<br>4. Submit  | Error message "Email is required" is displayed   | Pass   |              |
+| TC04  | Create new item in task list       | User is logged in           | 1. Go to 'Tasks'<br>2. Click 'Add Task'<br>3. Fill out form<br>4. Click 'Save'                 | New task appears in the task list                 | Pass   |              |
+| TC05  | UI display on mobile (responsive)  | Use mobile viewport (Chrome) | 1. Open app in mobile mode using DevTools<br>2. Navigate between pages                         | Layout adjusts properly to small screen size      | Pass   | Tested on iPhone 12 view |
