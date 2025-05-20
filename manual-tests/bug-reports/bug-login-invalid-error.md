@@ -32,7 +32,7 @@ Unprofessional error message is shown: "Bad credentials! Please try again! Make 
 ---
 
 ## 📎 Attachments:
-![screenshot](../bug-reports/assets/bug-login-invalid-error.png)
+![screenshot](../assets/bug-login-invalid-error.png)
 
 ---
 

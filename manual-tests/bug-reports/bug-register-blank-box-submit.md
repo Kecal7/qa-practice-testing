@@ -31,7 +31,7 @@ The account is beeing successfully created.
 ---
 
 ## 📎 Attachments:
-![screenshot](../bug-reports/assets/bug-register-blank-box-submit.png)
+![screenshot](../assets/bug-register-blank-box-submit.png)
 
 ---
 
