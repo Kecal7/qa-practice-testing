@@ -1,7 +1,7 @@
-# 🐞 Bug Report – Registration form submits with empty fields
+# 🐞 Bug Report – Registration form submits without checked box of terms and conditions
 
 **ID:** BUG-002  
-**Title:** Registration form allows submission without a required field box of terms and conditions
+**Title:** Registration form allows submission without a required checked box of terms and conditions
 **Severity:** High  
 **Priority:** High  
 **Reported on:** 2025-20-05  
