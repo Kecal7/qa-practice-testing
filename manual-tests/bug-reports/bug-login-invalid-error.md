@@ -1,20 +1,19 @@
 # 🐞 Bug Report – Incorrect error message on login failure
 
 **ID:** BUG-001  
-**Title:** "Invalid credentials" message not shown on failed login  
+**Title:** Unprofessional "Invalid credentials" message shown on failed login  
 **Severity:** Medium  
-**Priority:** High  
-**Reported on:** 2025-05-20  
+**Priority:** Medium  
+**Reported on:** 2025-20-05  
 **Environment:**  
-- Browser: Chrome 124.0.6367.78  
+- Browser: Chrome 124.0.6367.78
 - OS: Windows 11  
-- App Version: Production (https://qa-practice.netlify.app/)
 
 ---
 
 ## ✅ Steps to Reproduce:
 1. Open the login page.
-2. Enter a valid email (e.g., testuser@example.com).
+2. Enter a valid email.
 3. Enter an incorrect password.
 4. Click the "Login" button.
 
@@ -28,7 +27,7 @@ A clear error message should appear, such as:
 ---
 
 ## ❌ Actual Result:
-No error message is shown. The user remains on the same page without feedback.
+Unprofessional error message is shown: "Bad credentials! Please try again! Make sure that you've registered."
 
 ---
 
@@ -38,5 +37,4 @@ No error message is shown. The user remains on the same page without feedback.
 ---
 
 ## 💡 Notes:
-- No JavaScript errors in console
 - Happens on both Chrome and Firefox
