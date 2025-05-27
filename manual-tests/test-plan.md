@@ -14,18 +14,23 @@ The objective of this testing process is to verify the core functionality, usabi
 - Database-level integration
 - Role-based authorization testing (e.g. admin/user privileges)
 
-## 3. Tools Used
+## 3. Test Environment
+- Operating system: Windows, Android
+- Browsers: Chrome, Firefox (on both devices)
+- Devices: Desktop and mobile
+
+## 4. Tools Used
 - Browsers: Chrome, Firefox (for cross-browser validation)
 - Chrome DevTools
 - Screenshots: ShareX
 - Bug tracking: Markdown-based reports
 
-## 4. Types of Testing
+## 5. Types of Testing
 - Manual functional testing
 - Exploratory testing
 - Smoke testing
 
-## 5. Success Criteria
+## 6. Success Criteria
 - All key functionalities must pass manual test cases
 - Any critical bugs must be documented and reproducible
 - Usability and responsiveness should be acceptable across devices
