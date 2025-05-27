@@ -1,23 +1,18 @@
 # QA Portfolio Project – QA Practice App
 
-This repository contains comprehensive testing documentation and materials for the open-source [QA Practice App](https://qa-practice.netlify.app/). The project demonstrates my skills in manual, automated, API, performance, and security testing.
+This repository contains comprehensive testing documentation and materials for the open-source [QA Practice App](https://qa-practice.netlify.app/). The project demonstrates my skills in manual and automated testing.
+As my proficiency grows, more testing areas are to be getting covered.
 
 ## 🔍 Project Objectives
 
 - Execute **manual functional and UI tests** across multiple features.
 - Identify and document bugs with clear reproduction steps and evidence.
-- Create and run **automated tests** using tools like Selenium, Playwright, or Cypress.
-- Perform **API testing** with Postman or similar tools.
-- Conduct **performance/load testing** using JMeter or Locust.
-- Explore **basic security testing** scenarios (e.g. input validation, auth flaws).
+- Create and run **automated tests** using Selenium and Playwright.
 
 ## 🛠️ Tools & Technologies Used
 
 - **Manual Testing:** Chrome DevTools, exploratory techniques, bug reporting
-- **Automation:** Selenium, Playwright, Cypress
-- **API Testing:** Postman, RESTful endpoints, JSON
-- **Performance Testing:** JMeter, Locust
-- **Security Testing:** OWASP ZAP, Burp Suite (basic use)
+- **Automation:** Selenium, Playwright
 
 ## 📈 Test Coverage Highlights
 
@@ -27,8 +22,6 @@ This repository contains comprehensive testing documentation and materials for t
 - CRUD operations
 - Responsive design checks
 - Bug identification and documentation
-- REST API validation
-- Load simulation and performance analysis
 
 ## 📌 Notes
 
