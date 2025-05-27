@@ -1,7 +1,7 @@
-# 🐞 Bug Report – Registration form submits without checked box of terms and conditions
+# 🐞 Bug Report – Registration form submits without checked box for terms and conditions
 
 **ID:** BUG-002  
-**Title:** Registration form allows submission without a required checked box of terms and conditions
+**Title:** Registration form allows submission without a required checked checkbox for terms and conditions
 **Severity:** High  
 **Priority:** High  
 **Reported on:** 2025-20-05  
@@ -14,7 +14,7 @@
 
 ## ✅ Steps to Reproduce:
 1. Open the registration page.
-2. Fill out email and password but do not check the box of terms and conditions.
+2. Fill out email and password but do not check the checkbox for terms and conditions.
 3. Click the "Register" button.
 
 ---
